@@ -31,8 +31,9 @@ color_mode = "auto"
 env = "ZOLA_ENV"
 
 menu_items = [
-    { name = "project", url = "$LANG_BASE_URL/project", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
+    { name = "project", url = "$LANG_BASE_URL/project", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
+    { name = "life", url = "$LANG_BASE_URL/life", show_recent = true, recent_items = 3, recent_trans_key = "recent_life", more_trans_key = "more_life" },
     # tag is not a zola section, it's just a link.
     { name = "tags", url = "$LANG_BASE_URL/tags" },
     { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
@@ -82,11 +83,14 @@ taxonomies = [
 [languages.en.translations]
 project = "Project"
 blog = "Blog"
+life = "Life"
 about = "About"
-recent_projects = "Recent Projects"
-more_projects = "More Projects"
 recent_blog_posts = "Recent Blog Posts"
 more_blog_posts = "More blog posts"
+recent_projects = "Recent Projects"
+more_projects = "More Projects"
+recent_life = "Recent Life"
+more_life = "More Life"
 tag = "Tag"
 tags = "Tags"
 to_all_tags = "To all tags"
@@ -115,11 +119,14 @@ taxonomies = [
 [languages.zh.translations]
 project = "项目"
 blog = "博文"
+life = "生活"
 about = "关于"
 recent_projects = "近期项目"
 more_projects = "更多项目"
 recent_blog_posts = "近期博文"
 more_blog_posts = "更多博文"
+recent_life = "近期生活"
+more_life = "更多生活"
 tag = "标签"
 tags = "所有标签"
 to_all_tags = "所有标签"

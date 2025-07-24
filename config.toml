@@ -98,12 +98,16 @@ category = "Category"
 categories = "Categories"
 to_all_categories = "To all categories"
 view_by = "View by"
-other = "Other"
 minute = "min"
 prev_page = "To newer posts"
 next_page = "To older posts"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
+
+# Taxonomies
+other = "Other"
+
+futures = "Futures"
 
 [languages.zh]
 title = "nubiv"
@@ -134,9 +138,13 @@ category = "类别"
 categories = "所有类别"
 to_all_categories = "所有类别"
 view_by = "查看方式"
-other = "其他"
 minute = "分钟"
 prev_page = "上一页"
 next_page = "下一页"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%Y 年 %m 月 %d 日"
+
+# Taxonomies
+other = "其他"
+
+futures = "期货"

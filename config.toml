@@ -1,5 +1,7 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://nubiv.me"
+
+default_language = "en"
 
 theme = "papaya"
 
@@ -8,6 +10,8 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+generate_feeds = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -34,14 +38,39 @@ menu_items = [
     { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
 ]
 
+[extra.images]
+# Width defined in pixels
+max_width = 2500
+
+# Open Graph Protocol objects. See: https://ogp.me/
+[extra.ogp]
+locale = "en_US"
+first_name = "Yibo"
+last_name = "Hong"
+gender = "male"
+username = "nubiv"
+
+# Footer social links; full options listed in macros/social.html
+[extra.social]
+email = "h.horace0921@gmail.com"
+github = "nubiv"
+linkedin = "nubiv"
+twitter = "your-user-name"
+# zhihu = "your-user-name"
+weibo = "your-user-name"
+bilibili = "your-user-name"
+other = [
+    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" },
+]
+
 [extra.cdn]
 font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
 
 [languages]
 
 [languages.en]
-title = "Papaya"
-description = "A clean Zola theme for blogging and projects"
+title = "nubiv"
+description = "nubiv's home"
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 # The taxonomies to be rendered for the site and their configuration of the default languages
@@ -73,8 +102,8 @@ next_page = "To older posts"
 date_format = "%B %e, %Y"
 
 [languages.zh]
-title = "帕帕雅"
-description = "一个清新的 Zola 博客与项目模板"
+title = "nubiv"
+description = "nubiv's home"
 # base_url = "https://justintennant.me/papaya/zh"
 generate_feeds = true
 # The taxonomies to be rendered for the site and their configuration of the default languages

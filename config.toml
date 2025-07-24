@@ -31,7 +31,7 @@ color_mode = "auto"
 env = "ZOLA_ENV"
 
 menu_items = [
-    { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
+    { name = "project", url = "$LANG_BASE_URL/project", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
     # tag is not a zola section, it's just a link.
     { name = "tags", url = "$LANG_BASE_URL/tags" },
@@ -80,7 +80,7 @@ taxonomies = [
 ]
 
 [languages.en.translations]
-projects = "Projects"
+project = "Project"
 blog = "Blog"
 about = "About"
 recent_projects = "Recent Projects"
@@ -113,7 +113,7 @@ taxonomies = [
 ]
 
 [languages.zh.translations]
-projects = "项目"
+project = "项目"
 blog = "博文"
 about = "关于"
 recent_projects = "近期项目"

@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://nubiv.me"
+base_url = "https://me.nubiv.org"
 
 default_language = "en"
 
